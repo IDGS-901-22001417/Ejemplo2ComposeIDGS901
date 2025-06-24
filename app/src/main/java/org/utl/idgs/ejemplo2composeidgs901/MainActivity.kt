@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            SumaDosNumeros()
+            Calculadora()
 
 //            val navController = rememberNavController()
 //            NavHost(navController = navController, startDestination = "inicio"){
